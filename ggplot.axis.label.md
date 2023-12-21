@@ -1,6 +1,6 @@
 [Superscript and subscript axis labels in ggplot2 in R](https://www.geeksforgeeks.org/superscript-and-subscript-axis-labels-in-ggplot2-in-r/)
 
-`
+```{
 # Load ggplot2 Package 
 library("ggplot2") 
   
@@ -15,4 +15,4 @@ ggplot(DF,aes(X, Y))+
              color = "black", shape = 21)+ 
   xlab(bquote(X-Axis^superscript))+ 
   ylab(bquote(Y-Axis^superscript))
-`
+}```
